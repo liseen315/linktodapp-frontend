@@ -46,9 +46,10 @@ export default {
   align-items: center;
   padding: 16px 10px;
   position: fixed;
-  background: rgba(51, 51, 51, 0.2);
+  background: $color--gray;
   width: 100%;
   box-sizing: border-box;
+  z-index: 2;
   @include mediapoint('min-width', 640px) {
     padding-left: 22px;
     padding-right: 22px;
