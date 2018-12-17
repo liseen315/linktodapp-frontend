@@ -2,40 +2,40 @@
   <div class="footer">
     <div class="footer-nav">
       <div class="footer-item">
-        <div class="title-name">SUBMIT AND PROMOTED</div>
+        <div class="title-name">{{ $t('submitandpromoted') }}</div>
         <ul>
           <li>
-            <nuxt-link :to="localePath('submitdapp')" class="nav-item">Submit a ÐApp</nuxt-link>
+            <nuxt-link :to="localePath('submitdapp')" class="nav-item">{{ $t('submitdapp') }}</nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="localePath('promoteddapp')" class="nav-item">Promoted a ÐApp</nuxt-link>
+            <nuxt-link :to="localePath('promoteddapp')" class="nav-item">{{ $t('promoteddapp')}}</nuxt-link>
           </li>
         </ul>
       </div>
       <div class="footer-item">
-        <div class="title-name">ABOUT US</div>
+        <div class="title-name">{{ $t('aboutus') }}</div>
         <ul>
           <li>
-            <nuxt-link :to="localePath('about')" class="nav-item">About</nuxt-link>
+            <nuxt-link :to="localePath('about')" class="nav-item">{{ $t('f_about') }}</nuxt-link>
           </li>
           <li>
-            <nuxt-link :to="localePath('term')" class="nav-item">Terms of use</nuxt-link>
+            <nuxt-link :to="localePath('term')" class="nav-item">{{ $t('f_termsofrus') }}</nuxt-link>
           </li>
         </ul>
       </div>
       <div class="footer-item">
-        <div class="title-name">CONTACT US</div>
+        <div class="title-name">{{ $t('f_contactus') }}</div>
         <ul>
           <li>
-            <a href="#" class="nav-item">Email</a>
+            <a href="#" class="nav-item">{{ $t('f_mail') }}</a>
           </li>
           <li>
-            <a href="#" class="nav-item">Facebook</a>
+            <a href="#" class="nav-item">{{ $t('f_facebook') }}</a>
           </li>
         </ul>
       </div>
       <div class="footer-item">
-        <div class="title-name">FOLLOW US</div>
+        <div class="title-name">{{ $t('f_followus') }}</div>
         <ul>
           <li>
             <a href="#" class="nav-item">Twitter</a>

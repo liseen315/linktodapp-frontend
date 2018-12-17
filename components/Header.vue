@@ -24,7 +24,7 @@
       </li>
     </ul>
     <div class="submit-dapp">
-      <nuxt-link :to="localePath('submitdapp')" class="submit-btn">Submit a ÐApp</nuxt-link>
+      <nuxt-link :to="localePath('submitdapp')" class="submit-btn">{{ $t('submitdapp') }}</nuxt-link>
     </div>
   </div>
 </template>
