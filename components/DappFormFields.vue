@@ -1,14 +1,24 @@
 <template>
   <div class="list">
     <DappFormFieldsName/>
+    <DappFormFieldsEmail/>
+    <DappFormFieldsDescription/>
+    <DappFormFieldsWebsite/>
   </div>
 </template>
 
 <script>
 import DappFormFieldsName from '~/components/DappFormFieldsName'
+import DappFormFieldsEmail from '~/components/DappFormFieldsEmail'
+import DappFormFieldsDescription from '~/components/DappFormFieldsDescription'
+import DappFormFieldsWebsite from '~/components/DappFormFieldsWebsite'
+
 export default {
   components: {
-    DappFormFieldsName
+    DappFormFieldsName,
+    DappFormFieldsEmail,
+    DappFormFieldsDescription,
+    DappFormFieldsWebsite
   }
 }
 </script>
