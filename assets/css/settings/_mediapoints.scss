@@ -1,0 +1,7 @@
+@mixin mediapoint($type, $size) {
+  @media only screen and ($type: $size) {
+    @content;
+  }
+}
+
+$mediapoint--default: 1000px;
