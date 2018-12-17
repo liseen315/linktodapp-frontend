@@ -1,0 +1,104 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  background-color: $color--gray;
+}
+
+
+body,
+input,
+textarea {
+  font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Microsoft YaHei"
+    "Segoe UI",
+    Roboto,
+    Oxygen-Sans,
+    Ubuntu,
+    Cantarell,
+    "Helvetica Neue",
+    sans-serif;
+  font-size: 14px;
+  line-height: 1.2;
+  -webkit-font-smoothing: antialiased;
+  color: $color--black;
+  letter-spacing: -0.25px;
+}
+
+:focus {
+  outline: none;
+}
+
+input::placeholder {
+  line-height: 1.7;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 1;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+em {
+  font-style: normal;
+  font-weight: 700;
+}
+
+a {
+  color: $color--black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+strong {
+  font-weight: 700;
+}
+
+input[type='submit'] {
+  border-radius: 0;
+}
+
+button {
+  background: none;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  letter-spacing: -0.25px;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  -webkit-appearance: button;
+  /* for input */
+  -webkit-user-select: none;
+  /* for button */
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+pre {
+  margin: 0;
+  background: $color--white;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 5px 20px rgba($color--black, 0.05);
+}

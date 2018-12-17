@@ -1,7 +1,12 @@
+import savedPosition from './config/router'
+
 const pkg = require('./package')
 
 module.exports = {
   mode: 'universal',
+  router: {
+    scrollBehavior: savedPosition
+  },
 
   /*
    ** Headers of the page
