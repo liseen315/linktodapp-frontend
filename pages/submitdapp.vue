@@ -8,6 +8,7 @@
     <section class="section form">
       <div class="container">
         <DappFormFields/>
+        <DappFormSave/>
       </div>
     </section>
   </div>
@@ -15,9 +16,12 @@
 
 <script>
 import DappFormFields from '~/components/DappFormFields'
+import DappFormSave from '~/components/DappFormSave'
+
 export default {
   components: {
-    DappFormFields
+    DappFormFields,
+    DappFormSave
   }
 }
 </script>
