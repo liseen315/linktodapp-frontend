@@ -4,6 +4,11 @@
     <DappFormFieldsEmail/>
     <DappFormFieldsDescription/>
     <DappFormFieldsWebsite/>
+    <DappFormFieldsPlatform :platform="'Ethereum'"/>
+    <DappFormFieldsContracts/>
+    <DappFormFieldsStatus :status="'live'"/>
+    <DappFormFieldsCategory/>
+    <DappFormFieldsTags/>
   </div>
 </template>
 
@@ -12,13 +17,23 @@ import DappFormFieldsName from '~/components/DappFormFieldsName'
 import DappFormFieldsEmail from '~/components/DappFormFieldsEmail'
 import DappFormFieldsDescription from '~/components/DappFormFieldsDescription'
 import DappFormFieldsWebsite from '~/components/DappFormFieldsWebsite'
+import DappFormFieldsPlatform from '~/components/DappFormFieldsPlatform'
+import DappFormFieldsContracts from '~/components/DappFormFieldsContracts'
+import DappFormFieldsStatus from '~/components/DappFormFieldsStatus'
+import DappFormFieldsCategory from '~/components/DappFormFieldsCategory'
+import DappFormFieldsTags from '~/components/DappFormFieldsTags'
 
 export default {
   components: {
     DappFormFieldsName,
     DappFormFieldsEmail,
     DappFormFieldsDescription,
-    DappFormFieldsWebsite
+    DappFormFieldsWebsite,
+    DappFormFieldsPlatform,
+    DappFormFieldsContracts,
+    DappFormFieldsStatus,
+    DappFormFieldsCategory,
+    DappFormFieldsTags
   }
 }
 </script>
